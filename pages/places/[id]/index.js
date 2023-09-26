@@ -41,6 +41,8 @@ export default function DetailsPage() {
     console.log("deleted?");
   }
 
+  console.log("place.image: ", place.image);
+
   return (
     <>
       <Link href={"/"} passHref legacyBehavior>

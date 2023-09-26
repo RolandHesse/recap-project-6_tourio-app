@@ -27,7 +27,12 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "de.wikipedia.org",
+        hostname: "upload.wikimedia.org",
+        port: "",
+      },
+      {
+        protocol: "https",
+        hostname: "commons.wikimedia.org",
         port: "",
       },
     ],
